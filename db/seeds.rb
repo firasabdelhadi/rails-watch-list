@@ -5,3 +5,23 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+
+
+
+
+# 1- rails g migration Bookmarks comment:
+#    rails g migration Lists name:
+#    rails g migration Movies title: overview:
+#
+#    rails db:migrate
+#
+# 2- rails g model Bookmark comment:
+#    rails g model List name:
+#    rails g model Movie title: overview:
+# rating:integer content:
+
+# 3- add the validations
+# controller
+# comment:integer
